@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 00 00"
+Version="06 01 00"
 Platform="Windows"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -8,22 +8,14 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="tlcamera_rail_to_manufacture.lbr"
-UsedLibrary="D:/Dropbox/PCB/savpek_projects/DIY_CNC/wiring_sch/wiring_parts.lbr"
-UsedLibrary="D:/Dropbox/PCB/savpek_projects/DIY_CNC/s620_speed_driver/s620_speed_driver_parts.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="2531 244 3449 852"
-State=2
-Number=0
-
-[Win_2]
 Type="Board Editor"
-Loc="125 125 724 524"
-State=2
+Loc="200 200 799 599"
+State=0
 Number=2
 File="timelapse_cr_schematic.brd"
-View="-15.0312 -22.8029 235.447 79.3533"
+View="-15.0196 -22.791 235.434 79.3346"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.3 0.4 0.5 0.6 0.8 1 2 3"
@@ -55,6 +47,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=16
+
+[Win_2]
+Type="Control Panel"
+Loc="665 271 1264 670"
+State=2
+Number=0
 
 [Desktop]
 Screen="3840 1200"
