@@ -7,22 +7,68 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="tlcamera_rail_to_manufacture.lbr"
+UsedLibrary="D:/Dropbox/PCB/savpek_libraries/RC_and_L.lbr"
+UsedLibrary="D:/Dropbox/PCB/savpek_libraries/connectors.lbr"
+UsedLibrary="D:/Dropbox/PCB/savpek_libraries/schematic_supply.lbr"
+UsedLibrary="D:/Dropbox/PCB/savpek_projects/timelapse_camera_rail/to_manufacture/tlcamera_rail_to_manufacture.lbr"
+UsedLibrary="D:/Dropbox/PCB/savpek_projects/DIY_CNC/wiring_sch/wiring_parts.lbr"
+UsedLibrary="jogwheel_parts.lbr"
 
 [Win_1]
+Type="Schematic Editor"
+Loc="2414 395 3013 794"
+State=3
+Number=1
+File="jogwheel.sch"
+View="-53.2692 -205.305 336.911 226.151"
+WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
+ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=0
+WireBendSet=1
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=0
+PolygonPour=0
+PolygonRank=0
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=3
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=91
+Views=" 1: -53.2692 -205.305 336.911 226.151"
+Sheet=1
+
+[Win_2]
 Type="Board Editor"
-Loc="200 200 799 599"
-State=0
+Loc="250 250 849 649"
+State=1
 Number=2
-File="timelapse_cr_schematic.brd"
-View="-15.0196 -22.791 235.434 79.3346"
-WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
+File="jogwheel.brd"
+View="13.05 12.9892 103.924 82.2271"
+WireWidths=" 0 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.3048 0.1"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.3 0.4 0.5 0.6 0.8 1 2 3"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-ViaDrills=" 0.2 0.3 0.4 0.5 0.6 0.8 1 2 3"
+ViaDrills=" 0.2 0.3 0.4 0.5 0.8 1 2 3 0.6 0.6096"
 HoleDrills=" 0.2 0.3 0.4 0.5 0.6 0.8 1 2 3"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
+TextSizes=" 0.3048 0.4064 0.6096 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 0.8128 1.5"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
 PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 MiterRadiuss=" 0"
@@ -32,7 +78,7 @@ WireBendSet=3
 WireCap=1
 MiterStyle=0
 PadShape=0
-ViaShape=0
+ViaShape=1
 PolygonPour=0
 PolygonRank=1
 PolygonThermals=1
@@ -46,11 +92,18 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=16
+Layer=48
 
-[Win_2]
+[Win_3]
+Type="CAM Processor"
+Loc="800 382 1399 817"
+State=2
+Number=3
+Job="D:/Dropbox/PCB/savpek_cams/ITeadstudio_CAM.cam"
+
+[Win_4]
 Type="Control Panel"
-Loc="665 271 1264 670"
+Loc="3074 154 3767 638"
 State=2
 Number=0
 
@@ -58,3 +111,5 @@ Number=0
 Screen="3840 1200"
 Window="Win_1"
 Window="Win_2"
+Window="Win_3"
+Window="Win_4"
