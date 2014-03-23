@@ -13233,9 +13233,6 @@ And Overcurrent Protection
 <part name="P+8" library="schematic_supply" deviceset="+5V" device=""/>
 <part name="P+9" library="schematic_supply" deviceset="+5V" device=""/>
 <part name="P+10" library="schematic_supply" deviceset="+5V" device=""/>
-<part name="1.C2" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="P+11" library="schematic_supply" deviceset="+5V" device=""/>
-<part name="GND13" library="schematic_supply" deviceset="GND" device=""/>
 <part name="1.C4" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND14" library="schematic_supply" deviceset="GND" device=""/>
 <part name="1.ISPC" library="connectors" deviceset="CONNECTOR_6PIN" device="2X3_ISP"/>
@@ -13244,16 +13241,16 @@ And Overcurrent Protection
 <part name="P+2" library="schematic_supply" deviceset="+5V" device=""/>
 <part name="2.DRIVER" library="ic" deviceset="A4985" device=""/>
 <part name="P+4" library="schematic_supply" deviceset="+5V" device=""/>
-<part name="2.C0" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
-<part name="2.C1" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
+<part name="2.C2" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
+<part name="2.C3" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
 <part name="GND5" library="schematic_supply" deviceset="GND" device=""/>
-<part name="2.C2" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="2.C3" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="2.R1" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
-<part name="2.R2" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
+<part name="2.C4" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="2.C5" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="2.R3" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
+<part name="2.R4" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
 <part name="GND6" library="schematic_supply" deviceset="GND" device=""/>
 <part name="GND7" library="schematic_supply" deviceset="GND" device=""/>
-<part name="2.R3" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
+<part name="2.R2" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
 <part name="GND8" library="schematic_supply" deviceset="GND" device=""/>
 <part name="P+5" library="schematic_supply" deviceset="+24V" device=""/>
 <part name="2.MCON" library="connectors" deviceset="CONNECTOR_4PIN" device="">
@@ -13264,16 +13261,16 @@ And Overcurrent Protection
 </part>
 <part name="3.DRIVER" library="ic" deviceset="A4985" device=""/>
 <part name="P+6" library="schematic_supply" deviceset="+5V" device=""/>
-<part name="3.C4" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
-<part name="3.C5" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
+<part name="3.C2" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
+<part name="3.C3" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
 <part name="GND15" library="schematic_supply" deviceset="GND" device=""/>
-<part name="3.C6" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="3.C7" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="3.C4" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="3.C5" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="3.R3" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
 <part name="3.R4" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
-<part name="3.R5" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
 <part name="GND16" library="schematic_supply" deviceset="GND" device=""/>
 <part name="GND17" library="schematic_supply" deviceset="GND" device=""/>
-<part name="3.R6" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
+<part name="3.R2" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
 <part name="GND18" library="schematic_supply" deviceset="GND" device=""/>
 <part name="P+7" library="schematic_supply" deviceset="+24V" device=""/>
 <part name="3.MCON" library="connectors" deviceset="CONNECTOR_4PIN" device="">
@@ -13284,16 +13281,16 @@ And Overcurrent Protection
 </part>
 <part name="4.DRIVER" library="ic" deviceset="A4985" device=""/>
 <part name="P+13" library="schematic_supply" deviceset="+5V" device=""/>
-<part name="4.C8" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
-<part name="4.C9" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
+<part name="4.C2" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
+<part name="4.C3" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
 <part name="GND19" library="schematic_supply" deviceset="GND" device=""/>
-<part name="2.C10" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="2.C11" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="4.R7" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
-<part name="4.R8" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
+<part name="4.C4" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="4.C5" library="RC_and_L" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="4.R3" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
+<part name="4.R4" library="RC_and_L" deviceset="R-EU_" device="R2010"/>
 <part name="GND20" library="schematic_supply" deviceset="GND" device=""/>
 <part name="GND21" library="schematic_supply" deviceset="GND" device=""/>
-<part name="4.R9" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
+<part name="4.R2" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
 <part name="GND22" library="schematic_supply" deviceset="GND" device=""/>
 <part name="P+14" library="schematic_supply" deviceset="+24V" device=""/>
 <part name="4.MCON" library="connectors" deviceset="CONNECTOR_4PIN" device="">
@@ -13304,10 +13301,10 @@ And Overcurrent Protection
 </part>
 <part name="3.C1" library="RC_and_L" deviceset="C-EU" device="C0805"/>
 <part name="3.R1" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
-<part name="3.C2" library="RC_and_L" deviceset="C-EU" device="C0805"/>
-<part name="3.R2" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
-<part name="3.C3" library="RC_and_L" deviceset="C-EU" device="C0805"/>
-<part name="3.R3" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
+<part name="4.C1" library="RC_and_L" deviceset="C-EU" device="C0805"/>
+<part name="4.R1" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
+<part name="2.C1" library="RC_and_L" deviceset="C-EU" device="C0805"/>
+<part name="2.R1" library="RC_and_L" deviceset="R-EU_" device="R0805"/>
 <part name="2.TC6" library="connectors" deviceset="CONNECTOR_1PIN" device="1X1_HEADER"/>
 <part name="2.TC2" library="connectors" deviceset="CONNECTOR_1PIN" device="1X1_HEADER"/>
 <part name="2.TC4" library="connectors" deviceset="CONNECTOR_1PIN" device="1X1_HEADER"/>
@@ -13331,6 +13328,7 @@ And Overcurrent Protection
 <part name="5.C3" library="RC_and_L" deviceset="C-EU" device="C0805" value="220nF"/>
 <part name="5.C1" library="RC_and_L" deviceset="CPOL-EU" device="140CLH-0810" value="22uF"/>
 <part name="5.C2" library="RC_and_L" deviceset="CPOL-EU" device="140CLH-0810" value="220uF"/>
+<part name="5.GND1" library="connectors" deviceset="CONNECTOR_1PIN" device="1X1_HEADER"/>
 </parts>
 <sheets>
 <sheet>
@@ -13409,9 +13407,6 @@ And Overcurrent Protection
 <instance part="P+8" gate="1" x="119.38" y="132.08"/>
 <instance part="P+9" gate="1" x="144.78" y="132.08"/>
 <instance part="P+10" gate="1" x="160.02" y="83.82"/>
-<instance part="1.C2" gate="G$1" x="195.58" y="43.18"/>
-<instance part="P+11" gate="1" x="195.58" y="83.82"/>
-<instance part="GND13" gate="1" x="195.58" y="30.48"/>
 <instance part="1.C4" gate="G$1" x="104.14" y="-88.9"/>
 <instance part="GND14" gate="1" x="104.14" y="-101.6"/>
 <instance part="1.ISPC" gate="G$1" x="205.74" y="-27.94"/>
@@ -13420,16 +13415,16 @@ And Overcurrent Protection
 <instance part="P+2" gate="1" x="-162.56" y="86.36"/>
 <instance part="2.DRIVER" gate="G$1" x="340.36" y="88.9"/>
 <instance part="P+4" gate="1" x="299.72" y="139.7"/>
-<instance part="2.C0" gate="G$1" x="279.4" y="114.3"/>
-<instance part="2.C1" gate="G$1" x="309.88" y="139.7"/>
+<instance part="2.C2" gate="G$1" x="279.4" y="114.3"/>
+<instance part="2.C3" gate="G$1" x="309.88" y="139.7"/>
 <instance part="GND5" gate="1" x="279.4" y="106.68"/>
-<instance part="2.C2" gate="G$1" x="342.9" y="139.7" rot="R90"/>
-<instance part="2.C3" gate="G$1" x="370.84" y="139.7" rot="R90"/>
-<instance part="2.R1" gate="G$1" x="396.24" y="53.34" rot="R90"/>
-<instance part="2.R2" gate="G$1" x="383.54" y="53.34" rot="R90"/>
+<instance part="2.C4" gate="G$1" x="342.9" y="139.7" rot="R90"/>
+<instance part="2.C5" gate="G$1" x="370.84" y="139.7" rot="R90"/>
+<instance part="2.R3" gate="G$1" x="396.24" y="53.34" rot="R90"/>
+<instance part="2.R4" gate="G$1" x="383.54" y="53.34" rot="R90"/>
 <instance part="GND6" gate="1" x="332.74" y="22.86"/>
 <instance part="GND7" gate="1" x="309.88" y="132.08"/>
-<instance part="2.R3" gate="G$1" x="327.66" y="139.7" rot="R90"/>
+<instance part="2.R2" gate="G$1" x="327.66" y="139.7" rot="R90"/>
 <instance part="GND8" gate="1" x="327.66" y="132.08"/>
 <instance part="P+5" gate="1" x="393.7" y="154.94"/>
 <instance part="2.MCON" gate="G$1" x="429.26" y="101.6">
@@ -13440,16 +13435,16 @@ And Overcurrent Protection
 </instance>
 <instance part="3.DRIVER" gate="G$1" x="337.82" y="-78.74"/>
 <instance part="P+6" gate="1" x="297.18" y="-27.94"/>
-<instance part="3.C4" gate="G$1" x="276.86" y="-53.34"/>
-<instance part="3.C5" gate="G$1" x="307.34" y="-27.94"/>
+<instance part="3.C2" gate="G$1" x="276.86" y="-53.34"/>
+<instance part="3.C3" gate="G$1" x="307.34" y="-27.94"/>
 <instance part="GND15" gate="1" x="276.86" y="-60.96"/>
-<instance part="3.C6" gate="G$1" x="340.36" y="-27.94" rot="R90"/>
-<instance part="3.C7" gate="G$1" x="368.3" y="-27.94" rot="R90"/>
-<instance part="3.R4" gate="G$1" x="393.7" y="-114.3" rot="R90"/>
-<instance part="3.R5" gate="G$1" x="381" y="-114.3" rot="R90"/>
+<instance part="3.C4" gate="G$1" x="340.36" y="-27.94" rot="R90"/>
+<instance part="3.C5" gate="G$1" x="368.3" y="-27.94" rot="R90"/>
+<instance part="3.R3" gate="G$1" x="393.7" y="-114.3" rot="R90"/>
+<instance part="3.R4" gate="G$1" x="381" y="-114.3" rot="R90"/>
 <instance part="GND16" gate="1" x="330.2" y="-144.78"/>
 <instance part="GND17" gate="1" x="307.34" y="-35.56"/>
-<instance part="3.R6" gate="G$1" x="325.12" y="-27.94" rot="R90"/>
+<instance part="3.R2" gate="G$1" x="325.12" y="-27.94" rot="R90"/>
 <instance part="GND18" gate="1" x="325.12" y="-35.56"/>
 <instance part="P+7" gate="1" x="391.16" y="-12.7"/>
 <instance part="3.MCON" gate="G$1" x="426.72" y="-66.04">
@@ -13460,16 +13455,16 @@ And Overcurrent Protection
 </instance>
 <instance part="4.DRIVER" gate="G$1" x="337.82" y="-254"/>
 <instance part="P+13" gate="1" x="297.18" y="-203.2"/>
-<instance part="4.C8" gate="G$1" x="276.86" y="-228.6"/>
-<instance part="4.C9" gate="G$1" x="307.34" y="-203.2"/>
+<instance part="4.C2" gate="G$1" x="276.86" y="-228.6"/>
+<instance part="4.C3" gate="G$1" x="307.34" y="-203.2"/>
 <instance part="GND19" gate="1" x="276.86" y="-236.22"/>
-<instance part="2.C10" gate="G$1" x="340.36" y="-203.2" rot="R90"/>
-<instance part="2.C11" gate="G$1" x="368.3" y="-203.2" rot="R90"/>
-<instance part="4.R7" gate="G$1" x="393.7" y="-289.56" rot="R90"/>
-<instance part="4.R8" gate="G$1" x="381" y="-289.56" rot="R90"/>
+<instance part="4.C4" gate="G$1" x="340.36" y="-203.2" rot="R90"/>
+<instance part="4.C5" gate="G$1" x="368.3" y="-203.2" rot="R90"/>
+<instance part="4.R3" gate="G$1" x="393.7" y="-289.56" rot="R90"/>
+<instance part="4.R4" gate="G$1" x="381" y="-289.56" rot="R90"/>
 <instance part="GND20" gate="1" x="330.2" y="-320.04"/>
 <instance part="GND21" gate="1" x="307.34" y="-210.82"/>
-<instance part="4.R9" gate="G$1" x="325.12" y="-203.2" rot="R90"/>
+<instance part="4.R2" gate="G$1" x="325.12" y="-203.2" rot="R90"/>
 <instance part="GND22" gate="1" x="325.12" y="-210.82"/>
 <instance part="P+14" gate="1" x="391.16" y="-187.96"/>
 <instance part="4.MCON" gate="G$1" x="426.72" y="-241.3">
@@ -13480,10 +13475,10 @@ And Overcurrent Protection
 </instance>
 <instance part="3.C1" gate="G$1" x="289.56" y="-116.84"/>
 <instance part="3.R1" gate="G$1" x="281.94" y="-109.22" rot="R180"/>
-<instance part="3.C2" gate="G$1" x="289.56" y="-292.1"/>
-<instance part="3.R2" gate="G$1" x="281.94" y="-284.48" rot="R180"/>
-<instance part="3.C3" gate="G$1" x="292.1" y="50.8"/>
-<instance part="3.R3" gate="G$1" x="284.48" y="58.42" rot="R180"/>
+<instance part="4.C1" gate="G$1" x="289.56" y="-292.1"/>
+<instance part="4.R1" gate="G$1" x="281.94" y="-284.48" rot="R180"/>
+<instance part="2.C1" gate="G$1" x="292.1" y="50.8"/>
+<instance part="2.R1" gate="G$1" x="284.48" y="58.42" rot="R180"/>
 <instance part="2.TC6" gate="G$1" x="256.54" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="248.92" y="97.79" size="1.778" layer="97"/>
 </instance>
@@ -13523,6 +13518,7 @@ And Overcurrent Protection
 <instance part="5.C3" gate="G$1" x="149.86" y="-180.34"/>
 <instance part="5.C1" gate="G$1" x="137.16" y="-180.34"/>
 <instance part="5.C2" gate="G$1" x="124.46" y="-180.34"/>
+<instance part="5.GND1" gate="G$1" x="223.52" y="-172.72" rot="R90"/>
 </instances>
 <busses>
 <bus name="ATMEGABUS:C[0..7],D[2..7],TXD,RXD,B[0..2],B[6..7],MOSI,MISO,SCK,!RESET">
@@ -13593,9 +13589,10 @@ And Overcurrent Protection
 <label x="101.6" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="3.R2" gate="G$1" pin="2"/>
+<pinref part="4.R1" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="-284.48" x2="276.86" y2="-284.48" width="0.1524" layer="91"/>
 <label x="264.16" y="-284.48" size="1.778" layer="95"/>
+<junction x="276.86" y="-284.48"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -13761,7 +13758,6 @@ And Overcurrent Protection
 <segment>
 <pinref part="1.MCU1" gate="G$1" pin="ADC6"/>
 <wire x1="111.76" y1="-58.42" x2="96.52" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="-58.42" x2="96.52" y2="-55.88" width="0.1524" layer="91"/>
 <label x="101.6" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -13791,7 +13787,7 @@ And Overcurrent Protection
 <label x="157.48" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="3.R3" gate="G$1" pin="2"/>
+<pinref part="2.R1" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="58.42" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
 <label x="266.7" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -13994,11 +13990,6 @@ And Overcurrent Protection
 <wire x1="144.78" y1="101.6" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="1.C2" gate="G$1" pin="2"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="195.58" y1="38.1" x2="195.58" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="1.C4" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="-93.98" x2="104.14" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -14010,45 +14001,48 @@ And Overcurrent Protection
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="2.C0" gate="G$1" pin="2"/>
+<pinref part="2.C2" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="2.R2" gate="G$1" pin="1"/>
+<pinref part="2.R4" gate="G$1" pin="1"/>
 <wire x1="383.54" y1="48.26" x2="383.54" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="2.DRIVER" gate="G$1" pin="GND"/>
 <wire x1="347.98" y1="43.18" x2="347.98" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="33.02" x2="383.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="33.02" x2="396.24" y2="33.02" width="0.1524" layer="91"/>
 <junction x="383.54" y="33.02"/>
-<pinref part="2.DRIVER" gate="G$1" pin="GND@1"/>
 <wire x1="347.98" y1="33.02" x2="332.74" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="33.02" x2="332.74" y2="43.18" width="0.1524" layer="91"/>
 <junction x="347.98" y="33.02"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="332.74" y1="33.02" x2="332.74" y2="25.4" width="0.1524" layer="91"/>
 <junction x="332.74" y="33.02"/>
+<pinref part="2.R3" gate="G$1" pin="1"/>
+<wire x1="396.24" y1="33.02" x2="396.24" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="2.C1" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="45.72" x2="292.1" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="33.02" x2="332.74" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="2.DRIVER" gate="G$1" pin="GND@1"/>
+<wire x1="332.74" y1="43.18" x2="332.74" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2.C1" gate="G$1" pin="2"/>
+<pinref part="2.C3" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="2.R3" gate="G$1" pin="1"/>
+<pinref part="2.R2" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="3.C4" gate="G$1" pin="2"/>
+<pinref part="3.C2" gate="G$1" pin="2"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="3.R5" gate="G$1" pin="1"/>
+<pinref part="3.R4" gate="G$1" pin="1"/>
 <wire x1="381" y1="-119.38" x2="381" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="3.DRIVER" gate="G$1" pin="GND"/>
 <wire x1="345.44" y1="-124.46" x2="345.44" y2="-134.62" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="-134.62" x2="381" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="381" y1="-134.62" x2="393.7" y2="-134.62" width="0.1524" layer="91"/>
-<junction x="381" y="-134.62"/>
 <pinref part="3.DRIVER" gate="G$1" pin="GND@1"/>
 <wire x1="345.44" y1="-134.62" x2="330.2" y2="-134.62" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="-134.62" x2="330.2" y2="-124.46" width="0.1524" layer="91"/>
@@ -14059,21 +14053,25 @@ And Overcurrent Protection
 <pinref part="3.C1" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="-121.92" x2="289.56" y2="-134.62" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="-134.62" x2="330.2" y2="-134.62" width="0.1524" layer="91"/>
+<pinref part="3.R3" gate="G$1" pin="1"/>
+<wire x1="381" y1="-134.62" x2="393.7" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="-134.62" x2="393.7" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="381" y="-134.62"/>
 </segment>
 <segment>
-<pinref part="3.C5" gate="G$1" pin="2"/>
+<pinref part="3.C3" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="3.R6" gate="G$1" pin="1"/>
+<pinref part="3.R2" gate="G$1" pin="1"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="4.C8" gate="G$1" pin="2"/>
+<pinref part="4.C2" gate="G$1" pin="2"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="4.R8" gate="G$1" pin="1"/>
+<pinref part="4.R4" gate="G$1" pin="1"/>
 <wire x1="381" y1="-294.64" x2="381" y2="-309.88" width="0.1524" layer="91"/>
 <pinref part="4.DRIVER" gate="G$1" pin="GND"/>
 <wire x1="345.44" y1="-299.72" x2="345.44" y2="-309.88" width="0.1524" layer="91"/>
@@ -14087,22 +14085,30 @@ And Overcurrent Protection
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="330.2" y1="-309.88" x2="330.2" y2="-317.5" width="0.1524" layer="91"/>
 <junction x="330.2" y="-309.88"/>
-<pinref part="3.C2" gate="G$1" pin="2"/>
+<pinref part="4.C1" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="-297.18" x2="289.56" y2="-309.88" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="-309.88" x2="330.2" y2="-309.88" width="0.1524" layer="91"/>
+<pinref part="4.R3" gate="G$1" pin="1"/>
+<wire x1="393.7" y1="-294.64" x2="393.7" y2="-309.88" width="0.1524" layer="91"/>
+<junction x="393.7" y="-309.88"/>
+<junction x="289.56" y="-309.88"/>
 </segment>
 <segment>
-<pinref part="4.C9" gate="G$1" pin="2"/>
+<pinref part="4.C3" gate="G$1" pin="2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="4.R9" gate="G$1" pin="1"/>
+<pinref part="4.R2" gate="G$1" pin="1"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="5.GND" gate="G$1" pin="P$1"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="213.36" y1="-177.8" x2="213.36" y2="-187.96" width="0.1524" layer="91"/>
+<pinref part="5.GND1" gate="G$1" pin="P$1"/>
+<wire x1="223.52" y1="-177.8" x2="223.52" y2="-187.96" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-187.96" x2="213.36" y2="-187.96" width="0.1524" layer="91"/>
+<junction x="213.36" y="-187.96"/>
 </segment>
 <segment>
 <pinref part="5.PWRCON" gate="G$1" pin="P$2"/>
@@ -14149,15 +14155,10 @@ And Overcurrent Protection
 <wire x1="160.02" y1="66.04" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
 <junction x="160.02" y="66.04"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="P+11" gate="1" pin="+5V"/>
 <pinref part="1.MCU1" gate="G$1" pin="AVCC"/>
-<wire x1="154.94" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="1.C2" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="45.72" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
-<junction x="195.58" y="50.8"/>
-<wire x1="195.58" y1="50.8" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="50.8" x2="160.02" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="50.8" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
+<junction x="160.02" y="58.42"/>
 </segment>
 <segment>
 <pinref part="0.CON1" gate="G$1" pin="VCC@1"/>
@@ -14194,7 +14195,7 @@ And Overcurrent Protection
 <wire x1="299.72" y1="137.16" x2="299.72" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="2.DRIVER" gate="G$1" pin="VDD"/>
 <wire x1="299.72" y1="116.84" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="2.C0" gate="G$1" pin="1"/>
+<pinref part="2.C2" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="116.84" x2="299.72" y2="116.84" width="0.1524" layer="91"/>
 <junction x="299.72" y="116.84"/>
 </segment>
@@ -14203,7 +14204,7 @@ And Overcurrent Protection
 <wire x1="297.18" y1="-30.48" x2="297.18" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="3.DRIVER" gate="G$1" pin="VDD"/>
 <wire x1="297.18" y1="-50.8" x2="304.8" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="3.C4" gate="G$1" pin="1"/>
+<pinref part="3.C2" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="-50.8" x2="297.18" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="297.18" y="-50.8"/>
 </segment>
@@ -14212,7 +14213,7 @@ And Overcurrent Protection
 <wire x1="297.18" y1="-205.74" x2="297.18" y2="-226.06" width="0.1524" layer="91"/>
 <pinref part="4.DRIVER" gate="G$1" pin="VDD"/>
 <wire x1="297.18" y1="-226.06" x2="304.8" y2="-226.06" width="0.1524" layer="91"/>
-<pinref part="4.C8" gate="G$1" pin="1"/>
+<pinref part="4.C2" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="-226.06" x2="297.18" y2="-226.06" width="0.1524" layer="91"/>
 <junction x="297.18" y="-226.06"/>
 </segment>
@@ -14243,13 +14244,13 @@ And Overcurrent Protection
 <pinref part="2.DRIVER" gate="G$1" pin="VREG"/>
 <wire x1="322.58" y1="132.08" x2="322.58" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="144.78" x2="309.88" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="2.C1" gate="G$1" pin="1"/>
+<pinref part="2.C3" gate="G$1" pin="1"/>
 <wire x1="309.88" y1="144.78" x2="309.88" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="2.C2" gate="G$1" pin="1"/>
+<pinref part="2.C4" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="139.7" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="2.DRIVER" gate="G$1" pin="CP1"/>
 <wire x1="340.36" y1="132.08" x2="342.9" y2="132.08" width="0.1524" layer="91"/>
@@ -14257,7 +14258,7 @@ And Overcurrent Protection
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="2.C2" gate="G$1" pin="2"/>
+<pinref part="2.C4" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="139.7" x2="350.52" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="139.7" x2="350.52" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="2.DRIVER" gate="G$1" pin="CP2"/>
@@ -14266,7 +14267,7 @@ And Overcurrent Protection
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="2.C3" gate="G$1" pin="1"/>
+<pinref part="2.C5" gate="G$1" pin="1"/>
 <wire x1="368.3" y1="139.7" x2="358.14" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="2.DRIVER" gate="G$1" pin="VCP"/>
 <wire x1="358.14" y1="139.7" x2="358.14" y2="132.08" width="0.1524" layer="91"/>
@@ -14309,7 +14310,7 @@ And Overcurrent Protection
 <net name="N$14" class="0">
 <segment>
 <pinref part="2.DRIVER" gate="G$1" pin="SENSE1"/>
-<pinref part="2.R1" gate="G$1" pin="2"/>
+<pinref part="2.R3" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="71.12" x2="396.24" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="71.12" x2="396.24" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -14317,28 +14318,22 @@ And Overcurrent Protection
 <net name="N$15" class="0">
 <segment>
 <pinref part="2.DRIVER" gate="G$1" pin="SENSE2"/>
-<pinref part="2.R2" gate="G$1" pin="2"/>
+<pinref part="2.R4" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="66.04" x2="383.54" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="66.04" x2="383.54" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="2.R1" gate="G$1" pin="1"/>
-<wire x1="396.24" y1="48.26" x2="396.24" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="2.DRIVER" gate="G$1" pin="ROSC"/>
 <wire x1="332.74" y1="132.08" x2="332.74" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="2.R3" gate="G$1" pin="2"/>
+<pinref part="2.R2" gate="G$1" pin="2"/>
 <wire x1="332.74" y1="144.78" x2="327.66" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+24V" class="0">
 <segment>
-<pinref part="2.C3" gate="G$1" pin="2"/>
+<pinref part="2.C5" gate="G$1" pin="2"/>
 <wire x1="375.92" y1="139.7" x2="393.7" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="139.7" x2="393.7" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="2.DRIVER" gate="G$1" pin="VBB1"/>
@@ -14353,7 +14348,7 @@ And Overcurrent Protection
 <junction x="393.7" y="139.7"/>
 </segment>
 <segment>
-<pinref part="3.C7" gate="G$1" pin="2"/>
+<pinref part="3.C5" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="-27.94" x2="391.16" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="-27.94" x2="391.16" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="3.DRIVER" gate="G$1" pin="VBB1"/>
@@ -14368,7 +14363,7 @@ And Overcurrent Protection
 <junction x="391.16" y="-27.94"/>
 </segment>
 <segment>
-<pinref part="2.C11" gate="G$1" pin="2"/>
+<pinref part="4.C5" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="-203.2" x2="391.16" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="-203.2" x2="391.16" y2="-226.06" width="0.1524" layer="91"/>
 <pinref part="4.DRIVER" gate="G$1" pin="VBB1"/>
@@ -14410,13 +14405,13 @@ And Overcurrent Protection
 <pinref part="3.DRIVER" gate="G$1" pin="VREG"/>
 <wire x1="320.04" y1="-35.56" x2="320.04" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="-22.86" x2="307.34" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="3.C5" gate="G$1" pin="1"/>
+<pinref part="3.C3" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="-22.86" x2="307.34" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="3.C6" gate="G$1" pin="1"/>
+<pinref part="3.C4" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="-27.94" x2="337.82" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="3.DRIVER" gate="G$1" pin="CP1"/>
 <wire x1="337.82" y1="-35.56" x2="340.36" y2="-35.56" width="0.1524" layer="91"/>
@@ -14424,7 +14419,7 @@ And Overcurrent Protection
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="3.C6" gate="G$1" pin="2"/>
+<pinref part="3.C4" gate="G$1" pin="2"/>
 <wire x1="345.44" y1="-27.94" x2="347.98" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="-27.94" x2="347.98" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="3.DRIVER" gate="G$1" pin="CP2"/>
@@ -14433,7 +14428,7 @@ And Overcurrent Protection
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="3.C7" gate="G$1" pin="1"/>
+<pinref part="3.C5" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="-27.94" x2="355.6" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="3.DRIVER" gate="G$1" pin="VCP"/>
 <wire x1="355.6" y1="-27.94" x2="355.6" y2="-35.56" width="0.1524" layer="91"/>
@@ -14476,7 +14471,7 @@ And Overcurrent Protection
 <net name="N$25" class="0">
 <segment>
 <pinref part="3.DRIVER" gate="G$1" pin="SENSE1"/>
-<pinref part="3.R4" gate="G$1" pin="2"/>
+<pinref part="3.R3" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="-96.52" x2="393.7" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="-96.52" x2="393.7" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
@@ -14484,22 +14479,16 @@ And Overcurrent Protection
 <net name="N$26" class="0">
 <segment>
 <pinref part="3.DRIVER" gate="G$1" pin="SENSE2"/>
-<pinref part="3.R5" gate="G$1" pin="2"/>
+<pinref part="3.R4" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="-101.6" x2="381" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="381" y1="-101.6" x2="381" y2="-109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="3.R4" gate="G$1" pin="1"/>
-<wire x1="393.7" y1="-119.38" x2="393.7" y2="-134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="3.DRIVER" gate="G$1" pin="ROSC"/>
 <wire x1="330.2" y1="-35.56" x2="330.2" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="3.R6" gate="G$1" pin="2"/>
+<pinref part="3.R2" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="-22.86" x2="325.12" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14508,13 +14497,13 @@ And Overcurrent Protection
 <pinref part="4.DRIVER" gate="G$1" pin="VREG"/>
 <wire x1="320.04" y1="-210.82" x2="320.04" y2="-198.12" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="-198.12" x2="307.34" y2="-198.12" width="0.1524" layer="91"/>
-<pinref part="4.C9" gate="G$1" pin="1"/>
+<pinref part="4.C3" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="-198.12" x2="307.34" y2="-200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="2.C10" gate="G$1" pin="1"/>
+<pinref part="4.C4" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="-203.2" x2="337.82" y2="-210.82" width="0.1524" layer="91"/>
 <pinref part="4.DRIVER" gate="G$1" pin="CP1"/>
 <wire x1="337.82" y1="-210.82" x2="340.36" y2="-210.82" width="0.1524" layer="91"/>
@@ -14522,7 +14511,7 @@ And Overcurrent Protection
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="2.C10" gate="G$1" pin="2"/>
+<pinref part="4.C4" gate="G$1" pin="2"/>
 <wire x1="345.44" y1="-203.2" x2="347.98" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="-203.2" x2="347.98" y2="-210.82" width="0.1524" layer="91"/>
 <pinref part="4.DRIVER" gate="G$1" pin="CP2"/>
@@ -14531,7 +14520,7 @@ And Overcurrent Protection
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="2.C11" gate="G$1" pin="1"/>
+<pinref part="4.C5" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="-203.2" x2="355.6" y2="-203.2" width="0.1524" layer="91"/>
 <pinref part="4.DRIVER" gate="G$1" pin="VCP"/>
 <wire x1="355.6" y1="-203.2" x2="355.6" y2="-210.82" width="0.1524" layer="91"/>
@@ -14574,7 +14563,7 @@ And Overcurrent Protection
 <net name="N$37" class="0">
 <segment>
 <pinref part="4.DRIVER" gate="G$1" pin="SENSE1"/>
-<pinref part="4.R7" gate="G$1" pin="2"/>
+<pinref part="4.R3" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="-271.78" x2="393.7" y2="-271.78" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="-271.78" x2="393.7" y2="-284.48" width="0.1524" layer="91"/>
 </segment>
@@ -14582,22 +14571,16 @@ And Overcurrent Protection
 <net name="N$38" class="0">
 <segment>
 <pinref part="4.DRIVER" gate="G$1" pin="SENSE2"/>
-<pinref part="4.R8" gate="G$1" pin="2"/>
+<pinref part="4.R4" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="-276.86" x2="381" y2="-276.86" width="0.1524" layer="91"/>
 <wire x1="381" y1="-276.86" x2="381" y2="-284.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="4.R7" gate="G$1" pin="1"/>
-<wire x1="393.7" y1="-294.64" x2="393.7" y2="-309.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
 <pinref part="4.DRIVER" gate="G$1" pin="ROSC"/>
 <wire x1="330.2" y1="-210.82" x2="330.2" y2="-198.12" width="0.1524" layer="91"/>
-<pinref part="4.R9" gate="G$1" pin="2"/>
+<pinref part="4.R2" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="-198.12" x2="325.12" y2="-198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14614,9 +14597,9 @@ And Overcurrent Protection
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="3.C2" gate="G$1" pin="1"/>
+<pinref part="4.C1" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="-289.56" x2="289.56" y2="-284.48" width="0.1524" layer="91"/>
-<pinref part="3.R2" gate="G$1" pin="1"/>
+<pinref part="4.R1" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="-284.48" x2="287.02" y2="-284.48" width="0.1524" layer="91"/>
 <junction x="289.56" y="-284.48"/>
 <pinref part="4.DRIVER" gate="G$1" pin="REF"/>
@@ -14625,28 +14608,26 @@ And Overcurrent Protection
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="3.C3" gate="G$1" pin="1"/>
+<pinref part="2.C1" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="53.34" x2="292.1" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="3.R3" gate="G$1" pin="1"/>
+<pinref part="2.R1" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="58.42" x2="289.56" y2="58.42" width="0.1524" layer="91"/>
 <junction x="292.1" y="58.42"/>
 <pinref part="2.DRIVER" gate="G$1" pin="REF"/>
 <wire x1="292.1" y1="58.42" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="3.C3" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="45.72" x2="292.1" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="33.02" x2="332.74" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="33.02" x2="332.74" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,111.76,-50.8,C5,,,,,"/>
+<approved hash="106,1,111.76,-58.42,ADC6,,,,,"/>
+<approved hash="106,1,111.76,-66.04,ADC7,,,,,"/>
+<approved hash="106,1,111.76,45.72,D2,,,,,"/>
+<approved hash="106,1,111.76,30.48,D4,,,,,"/>
+<approved hash="106,1,111.76,22.86,D5,,,,,"/>
+<approved hash="211,1,96.52,-58.42,ADC6,ATMEGABUS:C[0..7]\,D[2..7]\,TXD\,RXD\,B[0..2]\,B[6..7]\,MOSI\,MISO\,SCK\,!RESET,,,,"/>
+<approved hash="211,1,96.52,-66.04,ADC7,ATMEGABUS:C[0..7]\,D[2..7]\,TXD\,RXD\,B[0..2]\,B[6..7]\,MOSI\,MISO\,SCK\,!RESET,,,,"/>
 </errors>
 </schematic>
 </drawing>
